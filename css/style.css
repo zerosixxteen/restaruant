@@ -203,8 +203,7 @@ header .topnav{
   width: 30%;
 }
 .topnav a:hover{
-font-size: 30px;
-color: black;
+color: white;
 underline:red;
 }
 
