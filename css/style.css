@@ -175,6 +175,7 @@ footer .javascript{
   width:100%;
   display:flex;
   justify-content:left;
+  opacity: 0.7;
 }
 .graficlogo{
   padding:5px;
