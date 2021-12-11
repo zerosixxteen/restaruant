@@ -199,11 +199,7 @@ header .topnav{
   padding: 15px 20px;
   font-size: 25px;
   font-weight: bold;
-  opacity: 1;
   width: 30%;
-}
-.topnav a:hover{
-color: white;
 }
 @media screen and (max-width: 1200px) {
   #menu {
