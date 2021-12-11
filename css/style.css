@@ -98,6 +98,16 @@ font-family: 'Raleway', sans-serif;
 #menu .container{
   width: 1500px;
   padding-top: 0px;
+  justify-content: center;
+}
+#menu .vipechka{
+  justify-content: center;
+}
+#menu .trad{
+  justify-content: center;
+}
+#menu .Desert{
+  justify-content: center;
 }
 #menu h1{
   text-align: center;
