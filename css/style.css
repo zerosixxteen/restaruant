@@ -204,17 +204,6 @@ header .topnav{
 }
 .topnav a:hover{
 color: white;
-underline:red;
-}
-
-@media screen and (max-width: 1500px) {
-  .logo{
-    background: #2F4F4F	;
-    width: 100%;
-    display: flex;
-    justify-content:left;
-
-  }
 }
 @media screen and (max-width: 1200px) {
   #menu {
@@ -232,14 +221,5 @@ underline:red;
     height: 100%;
     display: flex;
 
-  }
-}
-@media screen and (max-width: 1460px) {
-  .topnav {
-
-padding: 15px 20px;
-    font-size: 25px;
-    font-weight: bold;
-    align:left;
   }
 }
