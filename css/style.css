@@ -14,7 +14,7 @@ header{
   font-family: 'Raleway', sans-serif;
   position: fixed;
   width: 100%;
-  
+  opacity: 0.9;
   text-align: right;
   height: 150px;
 }
@@ -171,7 +171,7 @@ footer .javascript{
 
 .logo{
   margin: 0;
-  background: black;
+  background: black	;
   width:100%;
   display:flex;
   justify-content:left;
@@ -202,21 +202,25 @@ header .topnav{
   font-weight: bold;
   width: 30%;
 }
-@media screen and (max-width: 1200px) {
-  #menu {
 
-    width:70 %;
-    height: 100%;
+@media screen and (max-width: 1500px) {
+  .logo{
+    background: #2F4F4F	;
+    width: 100%;
     display: flex;
+    justify-content:left;
 
   }
 }
-@media screen and (max-width: 834px) {
-  #menu {
-
-    width:60 %;
-    height: 100%;
-    display: flex;
-
-  }
+@media screen and (min-width:200px)
+{
+.body{
+display:none;
+}
+}
+@media screen and (min-width:700px)
+{
+.body{
+display:inline;
+}
 }
